@@ -1,6 +1,7 @@
 package models
 
 const (
+	// TODO: SteerAction
 	SteerAction = "steer"
 	ShootAction = "shoot"
 )
@@ -10,17 +11,19 @@ type Action struct {
 	Arguments interface{} `json:"arguments"`
 }
 
-type Actions []Action
+type Actions struct {
+	Actions []Action
+}
 
-func (a Actions) Shoot(direction Vector2) Actions {
-	return append(a, Action{
+func (a *Actions) Shoot(direction Vector2) {
+	a.Actions = append(a.Actions, Action{
 		Method:    ShootAction,
 		Arguments: direction,
 	})
 }
 
-func (a Actions) Steer(direction Vector2) Actions {
-	return append(a, Action{
+func (a *Actions) Steer(direction Vector2) {
+	a.Actions = append(a.Actions, Action{
 		Method:    SteerAction,
 		Arguments: direction,
 	})

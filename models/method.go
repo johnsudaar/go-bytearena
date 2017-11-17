@@ -8,6 +8,6 @@ const (
 // TODO: Find a better name for that
 type Method struct {
 	AgentID string      `json:"agentid"`
-	Type    string      `json:"type"`
+	Method  string      `json:"method"`
 	Payload interface{} `json:"payload"`
 }
