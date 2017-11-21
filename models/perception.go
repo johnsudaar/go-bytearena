@@ -10,8 +10,8 @@ type Perception struct {
 
 type Item struct {
 	Tag      string  `json:"tag"`
-	NearEdge Vector2 `json:"nearest"`
-	Center   Vector2 `json:"vector"`
+	NearEdge Vector2 `json:"nearedge"`
+	Center   Vector2 `json:"center"`
 	FarEdge  Vector2 `json:"faredge"`
 	Velocity Vector2 `json:"velocity"`
 }
