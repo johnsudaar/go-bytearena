@@ -84,7 +84,7 @@ func (c *Client) Worker() {
 func (c *Client) PerceptionWorker(perceptionChan *sync.Chan) {
 	for {
 		actions := c.Agent.Tick(perceptionChan.Pop().(models.Perception), 0)
-		if len(actions.Actions) > 0 {
+		if actions != nil && len(actions.Actions) > 0 {
 			c.chanClient.Do(actions)
 		}
 	}
