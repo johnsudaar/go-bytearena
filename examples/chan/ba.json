@@ -1,0 +1,10 @@
+{
+    "id": "go-bytearena-example-chan",
+    "name": "Go Agent",
+    "license": "",
+    "language": "golang",
+    "gamemode": "deathmatch",
+    "repourl": "https://github.com/johnsudaar/go-bytearena",
+    "description": "go-bytearena agent implemented with chan SDK",
+    "avatarurl": null
+}
