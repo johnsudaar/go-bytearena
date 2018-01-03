@@ -3,9 +3,9 @@ package client
 import (
 	"strings"
 
-	"github.com/johnsudaar/go-bytearena/agent"
-	"github.com/johnsudaar/go-bytearena/models"
-	"github.com/johnsudaar/go-bytearena/sync"
+	"github.com/ByteArena/go-bytearena/agent"
+	"github.com/ByteArena/go-bytearena/models"
+	"github.com/ByteArena/go-bytearena/sync"
 	"github.com/pkg/errors"
 )
 

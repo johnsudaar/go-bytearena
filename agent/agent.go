@@ -1,6 +1,6 @@
 package agent
 
-import "github.com/johnsudaar/go-bytearena/models"
+import "github.com/ByteArena/go-bytearena/models"
 
 type Agent interface {
 	Tick(perception models.Perception, skipped int) *models.Actions // Called every tick

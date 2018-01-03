@@ -1,0 +1,10 @@
+{
+    "id": "go-bytearena-example-simple",
+    "name": "Go Agent",
+    "license": "",
+    "language": "golang",
+    "gamemode": "deathmatch",
+    "repourl": "https://github.com/ByteArena/go-bytearena",
+    "description": "go-bytearena agent implemented with simple SDK",
+    "avatarurl": null
+}

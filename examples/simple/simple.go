@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/johnsudaar/go-bytearena/client"
+	"github.com/ByteArena/go-bytearena/client"
 )
 
 func main() {

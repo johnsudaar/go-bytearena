@@ -1,15 +1,10 @@
-TRAINER      = ba t
+BUILDER      = ba build
+TRAINER      = ba train
 TRAINER_OPTS = --no-browser --debug
-AGENT_BIN    = agent
-DOCKER_IMAGE = go-agent
-DOCKER_OPTS  = --no-cache
+AGENTID      = go-bytearena-example-simple
 
 build:
-	go build -o $(AGENT_BIN)
-	docker build . -t $(DOCKER_IMAGE) $(DOCKER_OPTS)
-
-run-test: build
-	$(TRAINER) --agent $(DOCKER_IMAGE) --map training-dojo $(TRAINER_OPTS)
+	$(BUILDER)
 
 run: build
-	$(TRAINER) --agent $(DOCKER_IMAGE) --map island $(TRAINER_OPTS)
+	$(TRAINER) --agent $(AGENTID) $(TRAINER_OPTS)

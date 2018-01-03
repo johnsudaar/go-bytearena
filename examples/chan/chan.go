@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/johnsudaar/go-bytearena/client"
-	"github.com/johnsudaar/go-bytearena/models"
+	"github.com/ByteArena/go-bytearena/client"
+	"github.com/ByteArena/go-bytearena/models"
 
 	log "github.com/sirupsen/logrus"
 )

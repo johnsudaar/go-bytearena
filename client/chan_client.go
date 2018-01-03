@@ -3,8 +3,8 @@ package client
 import (
 	"os"
 
-	"github.com/johnsudaar/go-bytearena/models"
-	"github.com/johnsudaar/go-bytearena/transport"
+	"github.com/ByteArena/go-bytearena/models"
+	"github.com/ByteArena/go-bytearena/transport"
 	"github.com/pkg/errors"
 )
 
@@ -54,7 +54,7 @@ func (c *ChanClient) Start() (chan interface{}, error) {
 }
 
 func (c *ChanClient) Do(actions *models.Actions) error {
-	err := c.Send(models.MutationType, map[string]interface{}{"mutations": actions.Actions})
+	err := c.Send(models.ActionsType, map[string]interface{}{"actions": actions.Actions})
 	if err != nil {
 		return errors.Wrap(err, "fail to send actions")
 	}
