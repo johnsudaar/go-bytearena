@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/johnsudaar/go-bytearena/agent"
-	"github.com/johnsudaar/go-bytearena/models"
+	"github.com/ByteArena/go-bytearena/agent"
+	"github.com/ByteArena/go-bytearena/models"
 )
 
 type Agent struct {

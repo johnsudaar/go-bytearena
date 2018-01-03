@@ -4,7 +4,7 @@
     "license": "",
     "language": "golang",
     "gamemode": "deathmatch",
-    "repourl": "https://github.com/johnsudaar/go-bytearena",
+    "repourl": "https://github.com/ByteArena/go-bytearena",
     "description": "go-bytearena agent implemented with simple SDK",
     "avatarurl": null
 }

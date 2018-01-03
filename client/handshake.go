@@ -1,7 +1,7 @@
 package client
 
 import (
-	"github.com/johnsudaar/go-bytearena/models"
+	"github.com/ByteArena/go-bytearena/models"
 	"github.com/pkg/errors"
 )
 

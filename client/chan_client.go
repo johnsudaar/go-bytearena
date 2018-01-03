@@ -3,8 +3,8 @@ package client
 import (
 	"os"
 
-	"github.com/johnsudaar/go-bytearena/models"
-	"github.com/johnsudaar/go-bytearena/transport"
+	"github.com/ByteArena/go-bytearena/models"
+	"github.com/ByteArena/go-bytearena/transport"
 	"github.com/pkg/errors"
 )
 

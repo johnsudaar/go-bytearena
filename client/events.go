@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/johnsudaar/go-bytearena/models"
+	"github.com/ByteArena/go-bytearena/models"
 	"github.com/pkg/errors"
 )
 

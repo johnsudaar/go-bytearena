@@ -1,8 +1,8 @@
 package models
 
 const (
-	HandshakeType = "Handshake"
-	ActionsType   = "Actions"
+	HandshakeType = "handshake"
+	ActionsType   = "actions"
 )
 
 // TODO: Find a better name for that
